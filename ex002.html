@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trocar fundo</title>
+    <link rel="stylesheet" href="atv4.css">
+    <style>
+        button{
+            width: 100px;
+            border-radius: 5px;
+        }
+
+        #verde{
+            background-color: green;
+            border-color: green;
+        }
+
+        #vermelho{
+            background-color: red;
+            border-color: red;
+        }
+
+        p{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript">
+        function verde(){
+            document.body.style.background ='green';
+        }
+
+        function vermelho(){
+            document.body.style.background ='red';
+        }
+    </script>
+    <p> Troque no botão para mudar a cor de fundo</p>
+    <button id = "verde" onclick="verde()">VERDE</button>
+    <button id="vermelho" onclick="vermelho()"> VERMELHO </button>
+</body>
+</html>
