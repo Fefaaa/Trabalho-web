@@ -19,6 +19,6 @@ Esse repositório possui o código de um dos meus exercícios de js desenvolvido
 - `Javascript`
 
 # Autores
-
-<img src="octocat-1669907517293.png" width=115><br>
+| [<img src="https://avatars.githubusercontent.com/u/7065152?s=96&v=4" width=115><br><sub>Fernanda Fróis</sub>](https://github.com/Fefaaa) |
+| :---: |
 
